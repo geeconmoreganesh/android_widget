@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">widget</string>
+    <string name="open">open</string>
+    <string name="close">close</string>
+    <string-array name="City">
+        <item>Pathankot</item>
+        <item>Amritsar</item>
+        <item>Jalandhar</item>
+        <item>Ludhiana</item>
+        <item>Mohali</item>
+        <item>Chandigarh</item>
+    </string-array>
+</resources>

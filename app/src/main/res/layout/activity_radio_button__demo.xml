@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".RadioButton_Demo">
+
+    <TextView
+        android:id="@+id/select_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Select Gender"
+        android:textSize="20sp"
+        android:layout_marginTop="20sp"/>
+
+    <RadioGroup
+        android:id="@+id/group"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="20sp" >
+
+    <androidx.appcompat.widget.AppCompatRadioButton
+        android:id="@+id/male"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Male"
+        android:onClick="Method"
+        android:checked="false"
+        android:textSize="18sp"
+        android:layout_marginTop="20sp" />
+
+    <androidx.appcompat.widget.AppCompatRadioButton
+        android:id="@+id/female"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Female"
+        android:onClick="Method"
+        android:checked="false"
+        android:textSize="18sp"
+        android:layout_marginTop="20sp" />
+    </RadioGroup>
+
+</LinearLayout>

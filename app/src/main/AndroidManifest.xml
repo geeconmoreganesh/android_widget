@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.widget">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Widget">
+        <activity android:name=".navigation_demo">
+        </activity>
+        <activity android:name=".bottom_vavigation">
+        </activity>
+        <activity android:name=".profile_card_list"></activity>
+        <activity android:name=".input_form" />
+        <activity android:name=".User_form_one" />
+        <activity android:name=".ExplicitResult" />
+        <activity android:name=".ImplicitIntent" />
+        <activity android:name=".ExplicitIntent" />
+        <activity android:name=".ImageSlider" />
+        <activity android:name=".CustomNavigationDrawer" />
+        <activity android:name=".RecyclerView_Demo" />
+        <activity android:name=".NavigationDrawer_Demo" />
+        <activity android:name=".CustomBottomNavigation_Demo"></activity>
+        <activity
+            android:name=".PopUpMenu_Demo"
+            android:label="PopUpMenu_Demo" />
+        <activity
+            android:name=".BottomNavigation_Demo"
+            android:label="BottomNavigation_Demo" />
+        <activity
+            android:name=".Optionmenu_Demo"
+            android:label="Optionmenu_Demo"
+          />
+        <activity
+            android:name=".Toast_Demo"
+            android:label="Toast_Demo" />
+        <activity
+            android:name=".Spinner_Demo"
+            android:label="Spinner_Demo" />
+        <activity
+            android:name=".ImageButton_Demo"
+            android:label="ImageButton_Demo" />
+        <activity
+            android:name=".ToggleButton_Demo"
+            android:label="ToggleButton_Demo" />
+        <activity
+            android:name=".SwitchButton_Demo"
+            android:label="SwitchButton_Demo" />
+        <activity
+            android:name=".RadioButton_Demo"
+            android:label="RadioButton_Demo" />
+        <activity
+            android:name=".CheckBox_Demo"
+            android:label="CheckBox_Demo" />
+        <activity
+            android:name=".Button_Demo"
+            android:label="Button_Demo" />
+        <activity
+            android:name=".SearchView_Demo"
+            android:label="SearchView_Demo" />
+        <activity
+            android:name=".TimePicker_Demo"
+            android:label="TimePicker_Demo" />
+        <activity
+            android:name=".DatePicker_Demo"
+            android:label="DatePicker_Demo" />
+        <activity
+            android:name=".AlertDialog_Demo"
+            android:label="AlertDialog_Demo" />
+        <activity
+            android:name=".ProgressBar_Demo"
+            android:label="ProgressBar_Demo" />
+        <activity
+            android:name=".SeekBar_Demo"
+            android:label="SeekBar_Demo" />
+        <activity
+            android:name=".RatingBar_Demo"
+            android:label="RatingBar_Demo" />
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

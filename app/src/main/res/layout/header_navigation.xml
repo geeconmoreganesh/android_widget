@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="170dp"
+    android:background="@color/teal_700">
+
+    <ImageView
+        android:id="@+id/iv_one"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:src="@mipmap/ic_launcher_round"></ImageView>
+
+    <TextView
+        android:id="@+id/user_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/iv_one"
+        android:layout_marginLeft="10dp"
+        android:text="Mr JON"
+        android:textColor="@color/white"></TextView>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/user_name"
+        android:layout_marginLeft="10dp"
+        android:text="Mr JON @ gamil .com"
+        android:textColor="@color/white"></TextView>
+</RelativeLayout>
