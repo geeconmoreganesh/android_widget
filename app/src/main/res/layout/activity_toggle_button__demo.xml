@@ -13,11 +13,9 @@
         android:layout_height="wrap_content"
         android:layout_gravity="center"
         android:layout_marginTop="20dp"
-        android:text="This is demo"
-        android:textOn="On"
-        android:textOff="Off"
-        android:background="#ECDE6A"
-        android:checked="true">
+        android:checked="true"
+
+        >
     </androidx.appcompat.widget.AppCompatToggleButton>
 
 </LinearLayout>

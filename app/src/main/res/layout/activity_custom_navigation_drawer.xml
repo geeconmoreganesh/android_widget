@@ -46,20 +46,21 @@
                     android:layout_height="wrap_content"
                     android:layout_below="@+id/img1"
                     android:layout_marginTop="15dp"
-                    android:text="Salhotra"
+                    android:text="viraj"
                     android:textAllCaps="true"
                     android:textColor="@color/white"
                     android:textSize="18sp"
                     android:textStyle="bold" />
+
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_below="@+id/text1"
-                    android:text="Salhotra95@gmail.com"
-                    android:textSize="18sp"
-                    android:textColor="@color/white"
+                    android:text="virajkosjiya58@gmail.com"
                     android:textAllCaps="false"
-                    android:textStyle="bold"/>
+                    android:textColor="@color/white"
+                    android:textSize="18sp"
+                    android:textStyle="bold" />
             </RelativeLayout>
             <LinearLayout
                 android:layout_width="match_parent"

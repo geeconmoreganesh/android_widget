@@ -17,7 +17,7 @@ public class ToggleButton_Demo extends AppCompatActivity {
 
         toggle1 = (AppCompatToggleButton) findViewById(R.id.toggle_1);
 
-        String wifion=toggle1.getText().toString();
+      //  String wifion=toggle1.getText().toString();
 
         toggle1.setOnCheckedChangeListener(new CompoundButton.OnCheckedChangeListener() {
             @Override

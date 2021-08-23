@@ -26,6 +26,7 @@ public class ImplicitIntent extends AppCompatActivity {
                 intent.setAction(Intent.ACTION_SEND);
                 intent.putExtra(Intent.EXTRA_SUBJECT,"Share My App");
                 intent.putExtra(Intent.EXTRA_TEXT,"Welcome to here");
+
                 intent.setType("text/plain");
                 startActivity(intent);
 

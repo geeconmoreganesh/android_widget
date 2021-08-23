@@ -11,11 +11,10 @@
         android:layout_width="match_parent"
         android:layout_height="60dp"
         android:layout_alignParentBottom="true"
-        app:menu="@menu/example_bottomnavigation"
         android:background="#79E5F3"
         app:itemIconTint="@color/switch_icon_text_color"
         app:itemTextColor="@color/switch_icon_text_color"
-        app:labelVisibilityMode="labeled">
-    </com.google.android.material.bottomnavigation.BottomNavigationView>
+        app:labelVisibilityMode="labeled"
+        app:menu="@menu/example_bottomnavigation"></com.google.android.material.bottomnavigation.BottomNavigationView>
 
 </RelativeLayout>
